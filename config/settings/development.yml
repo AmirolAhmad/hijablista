@@ -1,0 +1,5 @@
+site_domain: hijablista.dev
+s3:
+  bucket: hijablista
+image_host: https://hijablista.s3.amazonaws.com
+fb_app_id: 
