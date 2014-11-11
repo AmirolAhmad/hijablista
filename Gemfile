@@ -31,10 +31,11 @@ gem 'jbuilder', '~> 2.0'
 gem 'rails_config'
 gem 'devise'
 gem 'dalli'
+gem 'friendly_id'
 
 group :development do
-  gem "better_errors"
-  gem "binding_of_caller"
+  gem 'better_errors'
+  gem 'binding_of_caller'
   gem 'letter_opener'
   gem 'quiet_assets'
 end
