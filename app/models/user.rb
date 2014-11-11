@@ -6,4 +6,8 @@ class User < ActiveRecord::Base
   
   extend FriendlyId #https://github.com/norman/friendly_id
   friendly_id :store_name, use: [:slugged, :finders, :history]
+
+  validates :store_name, :uniqueness => { :case_sensitive => false }
+
+  scope :admin, -> { where(admin IS TRUE) }
 end
