@@ -2,9 +2,13 @@ Hijab Online Store
 =====
 
 **Domain:** Hijablista.com
+
 **Technology:** Ruby on Rails
+
 **Purpose:** group together all hijab online store in one place
+
 **Type of product:** Hijab and Dress/Jubah
+
 **Type of user:** Administrator, Store Owner and customer
 
 ### What store owner can do ###
